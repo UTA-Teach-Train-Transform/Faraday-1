@@ -1,0 +1,10 @@
+// Copyright 2016-2020, University of Colorado Boulder
+
+/**
+ * Creates the namespace for this simulation.
+ *
+ */
+
+import Namespace from '../../tech-core/js/Namespace.js';
+
+export default new Namespace( 'faradaysLaw' );

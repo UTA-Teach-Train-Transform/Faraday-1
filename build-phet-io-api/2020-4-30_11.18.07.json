@@ -1,0 +1,3771 @@
+{
+    "Elements": {
+      "faradaysLaw.faradaysLawScreen": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ScreenIO"
+      },
+      "faradaysLaw.faradaysLawScreen.activeProperty": {
+        "techioDocumentation": "Indicates whether the screen is currently displayed in the simulation.  For single-screen simulations, there is only one screen and it is always active.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.model.magnet.fieldLinesVisibleProperty": {
+        "techioDocumentation": "True if the field lines are visible",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.model.magnet.orientationProperty": {
+        "techioDocumentation": "The direction the bar magnet is oriented",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.model.magnet.positionProperty": {
+        "techioDocumentation": "The position of the center of the bar magnet in view coordinates",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<Vector2IO>"
+      },
+      "faradaysLaw.faradaysLawScreen.model.magnetArrowsVisibleProperty": {
+        "techioDocumentation": "True if the magnet arrows are shown",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.model.topCoilVisibleProperty": {
+        "techioDocumentation": "True if and only if the top coil is visible",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.model.voltageProperty": {
+        "techioDocumentation": "Voltage indicated by the voltmeter. This drives the needle position and the light bulb brightness.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.model.voltmeterVisibleProperty": {
+        "techioDocumentation": "True if the voltmeter is shown",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup": {
+        "techioDocumentation": "Radio button group that selects between one or two coils.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton": {
+        "techioDocumentation": "Radio button that selects double coils.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.enabledProperty": {
+        "techioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.firedEmitter": {
+        "techioDocumentation": "Emits when the radio button is pressed No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.pressListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.pressListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.doubleCoilRadioButton.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.property": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "LinkedElementIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton": {
+        "techioDocumentation": "Radio button that selects a single coil.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.enabledProperty": {
+        "techioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.firedEmitter": {
+        "techioDocumentation": "Emits when the radio button is pressed No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.pressListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.pressListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.singleCoilRadioButton.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.coilRadioButtonGroup.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox": {
+        "techioDocumentation": "Checkbox that selects whether the magnetic field lines will be shown.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox.enabledProperty": {
+        "techioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox.property": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "LinkedElementIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox.toggleAction": {
+        "techioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.fieldLinesCheckbox.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton": {
+        "techioDocumentation": "When pressed, changes the orientation of the bar magnet.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.enabledProperty": {
+        "techioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.firedEmitter": {
+        "techioDocumentation": "Emits when the button is fired No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.pressListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.pressListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.flipMagnetButton.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode": {
+        "techioDocumentation": "The draggable container for the magnet and arrows",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.dragListener.dragAction": {
+        "techioDocumentation": "Emits whenever a drag occurs with an SceneryEventIO argument. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.dragListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.dragListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.fieldLinesNode": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.fieldLinesNode.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.fieldLinesNode.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.fieldLinesNode.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.magnetNode.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton": {
+        "techioDocumentation": "The orange, round button that can be used to restore the initial state",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.enabledProperty": {
+        "techioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.firedEmitter": {
+        "techioDocumentation": "Emits when the button is fired No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.isFiringProperty": {
+        "techioDocumentation": "Temporarily becomes true while the Reset All button is firing.  Commonly used to disable audio effects during reset.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "DerivedPropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.pressListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.pressListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.resetAllButton.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox": {
+        "techioDocumentation": "Checkbox that selects whether the voltmeter will be shown.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox.enabledProperty": {
+        "techioDocumentation": "When disabled, the checkbox is grayed out and cannot be pressed.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox.property": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "LinkedElementIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox.toggleAction": {
+        "techioDocumentation": "Emits when user input causes the checkbox to toggle, emitting a single arg: the new boolean value of the checkbox state. No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterCheckbox.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode": {
+        "techioDocumentation": "The voltmeter and its connecting wires",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.label": {
+        "techioDocumentation": "Text label at the bottom of the voltmeter",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "TextIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.label.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.label.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.label.textProperty": {
+        "techioDocumentation": "Property for the displayed text",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.label.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.faradaysLawScreen.view.voltmeterNode.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.controller.input.mouseDownAction": {
+        "techioDocumentation": "Emits when a mouse button is pressed. The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.mouseMoveAction": {
+        "techioDocumentation": "Emits when the mouse is moved. The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.mouseOutAction": {
+        "techioDocumentation": "Emits when the mouse moves out of the display. The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.mouseOverAction": {
+        "techioDocumentation": "Emits when the mouse is moved while on the sim. The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.mouseUpAction": {
+        "techioDocumentation": "Emits when a mouse button is released. The arguments are:<br/><ol><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.penCancelAction": {
+        "techioDocumentation": "Emits when a pen is canceled. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.penEndAction": {
+        "techioDocumentation": "Emits when a pen is lifted. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.penMoveAction": {
+        "techioDocumentation": "Emits when a pen is moved. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.penStartAction": {
+        "techioDocumentation": "Emits when a pen touches the screen. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.touchCancelAction": {
+        "techioDocumentation": "Emits when a touch is canceled. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.touchEndAction": {
+        "techioDocumentation": "Emits when a touch ends. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.touchMoveAction": {
+        "techioDocumentation": "Emits when a touch moves. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.touchStartAction": {
+        "techioDocumentation": "Emits when a touch begins. The arguments are:<br/><ol><li>id: NumberIO</li><br/><li>point: Vector2IO</li><br/><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "faradaysLaw.general.controller.input.validatePointersAction": {
+        "techioDocumentation": "A function that executes. No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<>"
+      },
+      "faradaysLaw.general.controller.input.wheelScrollAction": {
+        "techioDocumentation": "Emits when the mouse wheel scrolls. The arguments are:<br/><ol><li>event: EventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<EventIO>"
+      },
+      "faradaysLaw.general.model.activeProperty": {
+        "techioDocumentation": "Determines whether the entire simulation is running and processing user input. Setting this property to false pauses the simulation, and prevents user interaction.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.model.browserTabVisibleProperty": {
+        "techioDocumentation": "Indicates whether the browser tab containing the simulation is currently visible",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.model.focusProperty": {
+        "techioDocumentation": "Stores the current focus in the simulation, null if there is nothing focused. This is not updated based on mouse or touch input, only keyboard and other alternative inputs. Note that this only applies to simulations that support alternative input.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<FocusIO>>"
+      },
+      "faradaysLaw.general.model.techioCommandProcessor": {
+        "techioDocumentation": "Processes messages from the wrapper frame and returns the results. This serves as the source of techio-iO data stream messages when commands are invoked from the wrapper.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "techioCommandProcessorIO"
+      },
+      "faradaysLaw.general.model.resizeAction": {
+        "techioDocumentation": "Executes when the sim is resized. Values are the sim dimensions in CSS pixels. The arguments are:<br/><ol><li>width: NumberIO</li><br/><li>height: NumberIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO, NumberIO>"
+      },
+      "faradaysLaw.general.model.screenProperty": {
+        "techioDocumentation": "Determines which screen is selected in the simulation",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<ScreenIO>"
+      },
+      "faradaysLaw.general.model.simNameProperty": {
+        "techioDocumentation": "The name of the sim. Changing this value will update the title text on the navigation bar and the title text on the home screen, if it exists.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.general.model.stepSimulationAction": {
+        "techioDocumentation": "A function that steps time forward. The arguments are:<br/><ol><li>dt: NumberIO - The amount of time stepped in each call, in seconds.</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": true,
+        "techioIsArchetype": false,
+        "techioPlayback": true,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NumberIO>"
+      },
+      "faradaysLaw.general.view.barrierRectangle": {
+        "techioDocumentation": "Semi-transparent barrier used to block input events when a dialog is shown, also fades out the background",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.barrierRectangle.inputListener.firedEmitter": {
+        "techioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.barrierRectangle.inputListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.barrierRectangle.inputListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.barrierRectangle.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.barrierRectangle.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.barrierRectangle.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton": {
+        "techioDocumentation": "The button that appears at the right side of the navigation bar, which shows a menu when pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "techioButtonIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.enabledProperty": {
+        "techioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.firedEmitter": {
+        "techioDocumentation": "Emits when the button is fired No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu": {
+        "techioDocumentation": "This menu is displayed when the techio button is pressed.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "techioMenuIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "techioCapsuleIO<DialogIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "DialogIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.enabledProperty": {
+        "techioDocumentation": "When disabled, the button is grayed out and cannot be pressed",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.firedEmitter": {
+        "techioDocumentation": "Emits when the button is fired No arguments.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.pressListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.pressListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.closeButton.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.isShowingProperty": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "RichTextIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.textProperty": {
+        "techioDocumentation": "Property for the displayed text",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.termsPrivacyAndLicensingLinkText.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "RichTextIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.textProperty": {
+        "techioDocumentation": "Property for the displayed text",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.thirdPartyCreditsLinkText.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.translationCreditsLinkText": {
+        "techioDocumentation": "",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "RichTextIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.textProperty": {
+        "techioDocumentation": "Property for the displayed text",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.translationCreditsLinkText.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutDialogCapsule.archetype.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": true,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem": {
+        "techioDocumentation": "This menu item shows a dialog with information about the simulation.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem.inputListener.firedEmitter": {
+        "techioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem.inputListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem.inputListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.aboutMenuItem.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem": {
+        "techioDocumentation": "This menu item toggles between basic and enhanced sound modes. This will only be displayed if the simulation supports enhanced sounds.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem.inputListener.firedEmitter": {
+        "techioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem.inputListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem.inputListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.enhancedSoundMenuItem.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem": {
+        "techioDocumentation": "This menu item requests full-screen access for the simulation display.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem.inputListener.firedEmitter": {
+        "techioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem.inputListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem.inputListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.fullScreenMenuItem.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem": {
+        "techioDocumentation": "This menu item shows an options dialog.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem.inputListener.firedEmitter": {
+        "techioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem.inputListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem.inputListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.optionsMenuItem.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem": {
+        "techioDocumentation": "This menu item captures a screenshot from the simulation and saves it to the file system.",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "NodeIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem.inputListener.firedEmitter": {
+        "techioDocumentation": "A function that executes. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem.inputListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem.inputListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.techioMenu.screenshotMenuItem.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.pickableProperty": {
+        "techioDocumentation": "Set whether the techioButton will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.pressListener.pressAction": {
+        "techioDocumentation": "Executes whenever a press occurs. The first argument when executing can be used to convey info about the SceneryEvent. The arguments are:<br/><ol><li>event: SceneryEventIO</li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<SceneryEventIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.techioButton.pressListener.releaseAction": {
+        "techioDocumentation": "Executes whenever a release occurs. The arguments are:<br/><ol><li>event: NullableIO<SceneryEventIO></li></ol>",
+        "techioDynamicElement": false,
+        "techioEventType": "USER",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.titleText": {
+        "techioDocumentation": "Displays the title of the simulation in the navigation bar (bottom left)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "TextIO"
+      },
+      "faradaysLaw.general.view.navigationBar.titleText.opacityProperty": {
+        "techioDocumentation": "Opacity of the parent NodeIO, between 0 (invisible) and 1 (fully visible)",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "NumberPropertyIO"
+      },
+      "faradaysLaw.general.view.navigationBar.titleText.pickableProperty": {
+        "techioDocumentation": "Sets whether the node will be pickable (and hence interactive), see the NodeIO documentation for more details",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "faradaysLaw.general.view.navigationBar.titleText.textProperty": {
+        "techioDocumentation": "Property for the displayed text",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": true,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<StringIO>"
+      },
+      "faradaysLaw.general.view.navigationBar.titleText.visibleProperty": {
+        "techioDocumentation": "Controls whether the Node will be visible (and interactive), see the NodeIO documentation for more details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.soundManager": {
+        "techioDocumentation": "Controls the simulation's sound. For sims that do not support sound, this element and its children can be ignored.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "ObjectIO"
+      },
+      "faradaysLaw.general.view.soundManager.enabledProperty": {
+        "techioDocumentation": "Determines whether sound is enabled.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "faradaysLaw.general.view.soundManager.enhancedSoundEnabledProperty": {
+        "techioDocumentation": "Determines whether enhanced sound is enabled. Enhanced sound is additional sounds that can serve to improve the learning experience for individuals with visual disabilities. Note that not all simulations that support sound also support enhanced sound. Also note that the value is irrelevant when enabledProperty is false.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": true,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": true,
+        "techioStudioControl": true,
+        "techioTypeName": "PropertyIO<BooleanIO>"
+      },
+      "techioEngine": {
+        "techioDocumentation": "Central point for techio-iO interoperability. Please see the IO Type Documentation for API details.",
+        "techioDynamicElement": false,
+        "techioEventType": "MODEL",
+        "techioFeatured": false,
+        "techioHighFrequency": false,
+        "techioIsArchetype": false,
+        "techioPlayback": false,
+        "techioReadOnly": false,
+        "techioState": false,
+        "techioStudioControl": true,
+        "techioTypeName": "techioEngineIO"
+      }
+    },
+    "techioFullAPI": true,
+    "techioTypes": {
+      "ActionIO<>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<>"
+      },
+      "ActionIO<EventIO>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "EventIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "EventIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<EventIO>"
+      },
+      "ActionIO<NullableIO<SceneryEventIO>>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NullableIO<SceneryEventIO>"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NullableIO<SceneryEventIO>"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<NullableIO<SceneryEventIO>>"
+      },
+      "ActionIO<NumberIO, NumberIO>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO",
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NumberIO",
+          "NumberIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<NumberIO, NumberIO>"
+      },
+      "ActionIO<NumberIO, Vector2IO, EventIO>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO",
+              "Vector2IO",
+              "EventIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NumberIO",
+          "Vector2IO",
+          "EventIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<NumberIO, Vector2IO, EventIO>"
+      },
+      "ActionIO<NumberIO>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NumberIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<NumberIO>"
+      },
+      "ActionIO<SceneryEventIO>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "SceneryEventIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "SceneryEventIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<SceneryEventIO>"
+      },
+      "ActionIO<Vector2IO, EventIO>": {
+        "documentation": "Executes when an event occurs.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "execute": {
+            "documentation": "Executes the function the Action is wrapping.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "Vector2IO",
+              "EventIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "Vector2IO",
+          "EventIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ActionIO<Vector2IO, EventIO>"
+      },
+      "ArrayIO<StringIO>": {
+        "documentation": "A wrapper for the built-in JS array type, with the element type specified.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "StringIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ArrayIO<StringIO>"
+      },
+      "BooleanIO": {
+        "documentation": "IO Type for Javascript's boolean primitive type",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "BooleanIO"
+      },
+      "DerivedPropertyIO<BooleanIO>": {
+        "documentation": "Like PropertyIO, but not settable.  Instead it is derived from other DerivedPropertyIO or PropertyIO instances",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "setValue": {
+            "documentation": "Errors out when you try to set a derived property.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "BooleanIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "BooleanIO"
+        ],
+        "supertype": "PropertyIO<BooleanIO>",
+        "typeName": "DerivedPropertyIO<BooleanIO>"
+      },
+      "DialogIO": {
+        "documentation": "A dialog panel",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "NodeIO",
+        "typeName": "DialogIO"
+      },
+      "EmitterIO<>": {
+        "documentation": "Emits when an event occurs and calls added listeners.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "addListener": {
+            "documentation": "Adds a listener which will be called when the emitter emits.",
+            "parameterTypes": [
+              "FunctionIO()=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "emit": {
+            "documentation": "Emits a single event to all listeners.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [],
+        "supertype": "ActionIO<>",
+        "typeName": "EmitterIO<>"
+      },
+      "EmitterIO<NullableIO<SceneryEventIO>>": {
+        "documentation": "Emits when an event occurs and calls added listeners.",
+        "events": [
+          "emitted"
+        ],
+        "methodOrder": [],
+        "methods": {
+          "addListener": {
+            "documentation": "Adds a listener which will be called when the emitter emits.",
+            "parameterTypes": [
+              "FunctionIO(NullableIO<SceneryEventIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "emit": {
+            "documentation": "Emits a single event to all listeners.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NullableIO<SceneryEventIO>"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NullableIO<SceneryEventIO>"
+        ],
+        "supertype": "ActionIO<NullableIO<SceneryEventIO>>",
+        "typeName": "EmitterIO<NullableIO<SceneryEventIO>>"
+      },
+      "EventIO": {
+        "documentation": "A DOM Event",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "EventIO"
+      },
+      "FocusIO": {
+        "documentation": "A IO type for the instance in the simulation which currently has keyboard focus. FocusIO is serialized into and Object with key `focusedtechioElement` that is a list of techio-iO elements, from parent-most to child-most cooresponding to the techio-iO element that was instrumented.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "FocusIO"
+      },
+      "FontIO": {
+        "documentation": "Font handling for text drawing. Options:<ul><li><strong>style:</strong> normal      &mdash; normal | italic | oblique </li><li><strong>variant:</strong> normal    &mdash; normal | small-caps </li><li><strong>weight:</strong> normal     &mdash; normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 </li><li><strong>stretch:</strong> normal    &mdash; normal | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded </li><li><strong>size:</strong> 10px         &mdash; absolute-size | relative-size | length | percentage -- unitless number interpreted as px. absolute suffixes: cm, mm, in, pt, pc, px. relative suffixes: em, ex, ch, rem, vw, vh, vmin, vmax. </li><li><strong>lineHeight:</strong> normal &mdash; normal | number | length | percentage -- NOTE: Canvas spec forces line-height to normal </li><li><strong>family:</strong> sans-serif &mdash; comma-separated list of families, including generic families (serif, sans-serif, cursive, fantasy, monospace). ideally escape with double-quotes</li></ul>",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "FontIO"
+      },
+      "FunctionIO()=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> VoidIO<br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO()=>VoidIO"
+      },
+      "FunctionIO(BooleanIO,NullableIO<BooleanIO>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> BooleanIO, NullableIO<BooleanIO><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "BooleanIO",
+          "NullableIO<BooleanIO>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(BooleanIO,NullableIO<BooleanIO>)=>VoidIO"
+      },
+      "FunctionIO(NullableIO<BooleanIO>,NullableIO<NullableIO<BooleanIO>>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NullableIO<BooleanIO>, NullableIO<NullableIO<BooleanIO>><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NullableIO<BooleanIO>",
+          "NullableIO<NullableIO<BooleanIO>>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(NullableIO<BooleanIO>,NullableIO<NullableIO<BooleanIO>>)=>VoidIO"
+      },
+      "FunctionIO(NullableIO<FocusIO>,NullableIO<NullableIO<FocusIO>>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NullableIO<FocusIO>, NullableIO<NullableIO<FocusIO>><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NullableIO<FocusIO>",
+          "NullableIO<NullableIO<FocusIO>>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(NullableIO<FocusIO>,NullableIO<NullableIO<FocusIO>>)=>VoidIO"
+      },
+      "FunctionIO(NullableIO<SceneryEventIO>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NullableIO<SceneryEventIO><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NullableIO<SceneryEventIO>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(NullableIO<SceneryEventIO>)=>VoidIO"
+      },
+      "FunctionIO(NumberIO,NullableIO<NumberIO>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> NumberIO, NullableIO<NumberIO><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NumberIO",
+          "NullableIO<NumberIO>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(NumberIO,NullableIO<NumberIO>)=>VoidIO"
+      },
+      "FunctionIO(ObjectIO)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> ObjectIO<br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "ObjectIO",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(ObjectIO)=>VoidIO"
+      },
+      "FunctionIO(ScreenIO,NullableIO<ScreenIO>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> ScreenIO, NullableIO<ScreenIO><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "ScreenIO",
+          "NullableIO<ScreenIO>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(ScreenIO,NullableIO<ScreenIO>)=>VoidIO"
+      },
+      "FunctionIO(StringIO,NullableIO<StringIO>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> StringIO, NullableIO<StringIO><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "StringIO",
+          "NullableIO<StringIO>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(StringIO,NullableIO<StringIO>)=>VoidIO"
+      },
+      "FunctionIO(StringIO,ObjectIO,ObjectIO)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> StringIO, ObjectIO, ObjectIO<br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "StringIO",
+          "ObjectIO",
+          "ObjectIO",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(StringIO,ObjectIO,ObjectIO)=>VoidIO"
+      },
+      "FunctionIO(StringIO,StringIO)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> StringIO, StringIO<br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "StringIO",
+          "StringIO",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(StringIO,StringIO)=>VoidIO"
+      },
+      "FunctionIO(Vector2IO,NullableIO<Vector2IO>)=>VoidIO": {
+        "documentation": "Wrapper for the built-in JS function type.<br><strong>Arguments:</strong> Vector2IO, NullableIO<Vector2IO><br><strong>Return Type:</strong> VoidIO",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "Vector2IO",
+          "NullableIO<Vector2IO>",
+          "VoidIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "FunctionIO(Vector2IO,NullableIO<Vector2IO>)=>VoidIO"
+      },
+      "LinkedElementIO": {
+        "documentation": "A LinkedElement",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "LinkedElementIO"
+      },
+      "NodeIO": {
+        "documentation": "The base type for graphical and potentially interactive objects.  NodeIO has nested PropertyIO values for visibility, pickability and opacity.<br><br>Pickable can take one of three values:<br><ul><li>null: pass-through behavior. Nodes with input listeners are pickable, but nodes without input listeners won't block events for nodes behind it.</li><li>false: The node cannot be interacted with, and it blocks events for nodes behind it.</li><li>true: The node can be interacted with (if it has an input listener).</li></ul>For more about Scenery node pickability, please see <a href=\"http://techiosims.github.io/scenery/doc/implementation-notes#pickability\">http://techiosims.github.io/scenery/doc/implementation-notes#pickability</a>",
+        "events": [],
+        "methodOrder": [],
+        "methods": {
+          "moveBackward": {
+            "documentation": "Move this node one index backward in each of its parents.  If the node is already at the back, this is a no-op.",
+            "parameterTypes": [],
+            "returnType": "VoidIO"
+          },
+          "moveForward": {
+            "documentation": "Move this node one index forward in each of its parents.  If the node is already at the front, this is a no-op.",
+            "parameterTypes": [],
+            "returnType": "VoidIO"
+          }
+        },
+        "supertype": "ObjectIO",
+        "typeName": "NodeIO"
+      },
+      "NullableIO<BooleanIO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "BooleanIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<BooleanIO>"
+      },
+      "NullableIO<FocusIO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "FocusIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<FocusIO>"
+      },
+      "NullableIO<NullableIO<BooleanIO>>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NullableIO<BooleanIO>"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<NullableIO<BooleanIO>>"
+      },
+      "NullableIO<NullableIO<FocusIO>>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NullableIO<FocusIO>"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<NullableIO<FocusIO>>"
+      },
+      "NullableIO<NumberIO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NumberIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<NumberIO>"
+      },
+      "NullableIO<SceneryEventIO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "SceneryEventIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<SceneryEventIO>"
+      },
+      "NullableIO<ScreenIO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "ScreenIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<ScreenIO>"
+      },
+      "NullableIO<StringIO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "StringIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<StringIO>"
+      },
+      "NullableIO<Vector2IO>": {
+        "documentation": "A wrapper to wrap another IOType, adding support for null.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "Vector2IO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "NullableIO<Vector2IO>"
+      },
+      "NumberIO": {
+        "documentation": "IO Type for Javascript's number primitive type",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "NumberIO"
+      },
+      "NumberPropertyIO": {
+        "documentation": "Extends PropertyIO to add values for the numeric range ( min, max ) and numberType ( 'FloatingPoint' | 'Integer' )",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "NumberIO"
+        ],
+        "supertype": "PropertyIO<NumberIO>",
+        "typeName": "NumberPropertyIO"
+      },
+      "ObjectIO": {
+        "documentation": "The root of the wrapper object hierarchy.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": null,
+        "typeName": "ObjectIO"
+      },
+      "techioButtonIO": {
+        "documentation": "The techio Button in the bottom right of the screen",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "techioButtonIO"
+      },
+      "techioMenuIO": {
+        "documentation": "The techio Menu in the bottom right of the screen",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "techioMenuIO"
+      },
+      "techioCapsuleIO<DialogIO>": {
+        "documentation": "An array that sends notifications when its values have changed.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "DialogIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "techioCapsuleIO<DialogIO>"
+      },
+      "techioCommandProcessorIO": {
+        "documentation": "Invokes techio-iO API commands on a running simulation.",
+        "events": [
+          "invoked"
+        ],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "techioCommandProcessorIO"
+      },
+      "techioEngineIO": {
+        "documentation": "Mediator for the techio-io module, with system-wide methods for communicating with the sim and other globals",
+        "events": [
+          "simStarted",
+          "state"
+        ],
+        "methodOrder": [
+          "addtechioElementAddedListener",
+          "addtechioElementRemovedListener",
+          "addEventListener",
+          "getScreenshotDataURL",
+          "gettechioIDs",
+          "getValues",
+          "getState",
+          "setState",
+          "getChangedState",
+          "getStateForObject",
+          "gettechioElementMetadata",
+          "setRandomSeed",
+          "getRandomSeed",
+          "setDisplaySize",
+          "setPlaybackMode",
+          "setInteractive",
+          "isInteractive",
+          "startEvent",
+          "endEvent",
+          "triggerEvent",
+          "stepSimulation",
+          "launchSimulation",
+          "invokeControllerInputEvent",
+          "setSimStartedMetadata",
+          "simulateError"
+        ],
+        "methods": {
+          "addEventListener": {
+            "documentation": "Adds a listener to the techio-iO dataStream, which can be used to respond to events or for data analysis. Unlike Client.launchSim( {onEvent} ) which is called recursively for each parsed child event, this is only called with stringified top-level events.",
+            "parameterTypes": [
+              "FunctionIO(ObjectIO)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "addtechioElementAddedListener": {
+            "documentation": "Adds a listener that receives a callback when a techio-iO Element has been added.Arguments for the function: \n<ul><li><strong>techioID:</strong> {String}\n</li><li><strong>metadata:</strong> {Object} - element specific metadata like documentation and type, see techioEngineIO.gettechioElementMetadata().</li><li><strong>state:</strong> {Object} - a snapshot of the initial state of the techio-iO Element.</li></ul>",
+            "parameterTypes": [
+              "FunctionIO(StringIO,ObjectIO,ObjectIO)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "addtechioElementRemovedListener": {
+            "documentation": "Removes a listener that was added with addtechioElementAddedListener",
+            "parameterTypes": [
+              "FunctionIO(StringIO,StringIO)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "addtechioElementsBaselineListener": {
+            "documentation": "Adds a listener that receives a message when the simulation baseline file is prepared.  Mainly for internal usage.",
+            "parameterTypes": [
+              "FunctionIO(ObjectIO)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "addTypesAddedListener": {
+            "documentation": "Adds a listener that receives a callback when an IO type has been addedArguments for the function: \n<ul><li><strong>metadata:</strong> {Object} - keys are typeName and values are type JSON</li></ul>",
+            "parameterTypes": [
+              "FunctionIO(ObjectIO)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "endEvent": {
+            "documentation": "Ends a previously started wrapper event message.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "getChangedState": {
+            "documentation": "Gets the state of the simulation, only returning values that have changed from their initial state. techio-iO elements that have been deleted will be displayed with the value \"DELETED\".",
+            "parameterTypes": [],
+            "returnType": "ObjectIO"
+          },
+          "gettechioElementMetadata": {
+            "documentation": "Get metadata about the techio-iO element. This includes the following keys:<ul><li><strong>techioTypeName:</strong> The name of the techio-iO Type\n</li><li><strong>techioState:</strong> default - true. When true, includes the techio-iO element in the techio-iO state\n</li><li><strong>techioReadOnly:</strong> default - false. When true, you can only get values from the techio-iO element; no setting allowed.\n</li><li><strong>techioDocumentation:</strong> default - null. Useful notes about a techio-iO element, shown in the techio-iO Studio Wrapper</li></ul>",
+            "parameterTypes": [
+              "StringIO"
+            ],
+            "returnType": "ObjectIO"
+          },
+          "gettechioIDs": {
+            "documentation": "Gets a list of all of the techio-iO elements.",
+            "parameterTypes": [],
+            "returnType": "ArrayIO<StringIO>"
+          },
+          "getRandomSeed": {
+            "documentation": "Gets the random seed, used for replicable playbacks",
+            "parameterTypes": [],
+            "returnType": "NumberIO"
+          },
+          "getScreenshotDataURL": {
+            "documentation": "Gets a base64 string representation of a screenshot of the simulation as a data url.",
+            "parameterTypes": [],
+            "returnType": "StringIO"
+          },
+          "getState": {
+            "documentation": "Gets the full state of the simulation, including parts that have not changed from startup.",
+            "parameterTypes": [],
+            "returnType": "ObjectIO"
+          },
+          "getStateForObject": {
+            "documentation": "Gets the state object for a techio-iO element or null if techioID does not exist.",
+            "parameterTypes": [
+              "StringIO"
+            ],
+            "returnType": "ObjectIO"
+          },
+          "getValues": {
+            "documentation": "Get the current values for multiple Property/DerivedProperty elements at the same time. Useful for collecting data to be plotted, so values will be consistent.",
+            "parameterTypes": [
+              "ArrayIO<StringIO>"
+            ],
+            "returnType": "ObjectIO"
+          },
+          "invokeControllerInputEvent": {
+            "documentation": "Plays back a recorded input event into the simulation.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "ObjectIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "isInteractive": {
+            "documentation": "Gets whether the sim can be interacted with (via mouse/touch/keyboard).",
+            "parameterTypes": [],
+            "returnType": "BooleanIO"
+          },
+          "launchSimulation": {
+            "documentation": "Finishes launching the simulation, called from a wrapper after all cross-frame initialization is complete. Note: cannot be invoked with other commands.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [],
+            "returnType": "VoidIO"
+          },
+          "setDisplaySize": {
+            "documentation": "Sets the size of the visible region for the simulation.  In most cases, it would be recommended to set the size of the iframe, but this method can be used to set the size of the display inside the iframe.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO",
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setInteractive": {
+            "documentation": "Sets whether the sim can be interacted with (via mouse/touch/keyboard). When set to false, the sim animations and model will still step.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "BooleanIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setPlaybackMode": {
+            "documentation": "Sets whether the sim is in \"playback mode\", which is used for playing back recorded events.  In this mode, the simulation clock will only advance based on the played back events.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "BooleanIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setRandomSeed": {
+            "documentation": "Sets the random seed so that the simulation will have reproducible \"randomness\" between runs.  This must be set before the techio-iO simulation is launched so that all of the random variables will take on deterministic values.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setSimStartedMetadata": {
+            "documentation": "Sets additional data that is added to the simStarted event, which will appear in the techio-iO event stream. It can be used to record startup parameters or other information specified by the wrapper.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "ObjectIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setState": {
+            "documentation": "Sets the simulation state based on the keys provided. The parameter is a map where the keys are techioIDs and the values are the corresponding states for each techio-iO element. This method expectsa complete list of state supported techioIDs, which can be found by calling getState().",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "ObjectIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "simulateError": {
+            "documentation": "Simulates an error in the simulation frame for testing purposes.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NullableIO<StringIO>"
+            ],
+            "returnType": "VoidIO"
+          },
+          "startEvent": {
+            "documentation": "Begins a message from the wrapper and interleaves it in the techio-iO Simulation's data stream. Takes an object with entries like: <br><strong>{string} techioID</strong> - the id of the specific element that created the event in camelCasing like 'frictionCheckbox'<br><strong>{{typeName: string, events: String[]}}componentType </strong> - The Type that is emitting the event. The event being started must be included in the \"events\" array.<br><strong>{string} event</strong> - the name of the action that occurred, in camelCase, like 'pressed'<br><strong>{Object} [parameters]</strong> - key/value pairs of arguments for the event, to provide further description of the event.       It is the programmer's responsibility to make sure the optional arguments don't collide with the other key names<br>.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "ObjectIO"
+            ],
+            "returnType": "NumberIO"
+          },
+          "stepSimulation": {
+            "documentation": "Steps one frame of the simulation.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "triggerEvent": {
+            "documentation": "Start and end a message from the wrapper, interleaving it into the techio-iO Simulation's data stream. Takes an object with entries like: <br><strong>{string} techioID</strong> - the id of the specific element that created the event in camelCasing like 'frictionCheckbox'<br><strong>{{typeName: string, events: String[]}} type</strong> - The Type that is emitting the event. The event being triggered must be included in the \"events\" array.<br><strong>{string} event</strong> - the name of the action that occurred, in camelCase, like 'pressed'<br><strong>{Object} [parameters]</strong> - key/value pairs of arguments for the event, to provide further description of the event.       It is the programmer's responsibility to make sure the optional arguments don't collide with the other key names<br>.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "ObjectIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "supertype": "ObjectIO",
+        "typeName": "techioEngineIO"
+      },
+      "PropertyIO<BooleanIO>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "BooleanIO"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(BooleanIO,NullableIO<BooleanIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(BooleanIO,NullableIO<BooleanIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "BooleanIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "BooleanIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<BooleanIO>"
+      },
+      "PropertyIO<NullableIO<BooleanIO>>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "NullableIO<BooleanIO>"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(NullableIO<BooleanIO>,NullableIO<NullableIO<BooleanIO>>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(NullableIO<BooleanIO>,NullableIO<NullableIO<BooleanIO>>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NullableIO<BooleanIO>"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NullableIO<BooleanIO>"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<NullableIO<BooleanIO>>"
+      },
+      "PropertyIO<NullableIO<FocusIO>>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "NullableIO<FocusIO>"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(NullableIO<FocusIO>,NullableIO<NullableIO<FocusIO>>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(NullableIO<FocusIO>,NullableIO<NullableIO<FocusIO>>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NullableIO<FocusIO>"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NullableIO<FocusIO>"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<NullableIO<FocusIO>>"
+      },
+      "PropertyIO<NumberIO>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "NumberIO"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(NumberIO,NullableIO<NumberIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(NumberIO,NullableIO<NumberIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "NumberIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<NumberIO>"
+      },
+      "PropertyIO<ScreenIO>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "ScreenIO"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(ScreenIO,NullableIO<ScreenIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(ScreenIO,NullableIO<ScreenIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "ScreenIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "ScreenIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<ScreenIO>"
+      },
+      "PropertyIO<StringIO>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "StringIO"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(StringIO,NullableIO<StringIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(StringIO,NullableIO<StringIO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "StringIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "StringIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<StringIO>"
+      },
+      "PropertyIO<Vector2IO>": {
+        "documentation": "Observable values that send out notifications when the value changes. This differs from the traditional listener pattern in that added listeners also receive a callback with the current value when the listeners are registered. This is a widely-used pattern in techio-iO simulations.",
+        "events": [
+          "changed"
+        ],
+        "methodOrder": [
+          "link",
+          "lazyLink"
+        ],
+        "methods": {
+          "getValue": {
+            "documentation": "Gets the current value.",
+            "parameterTypes": [],
+            "returnType": "Vector2IO"
+          },
+          "lazyLink": {
+            "documentation": "Adds a listener which will be called when the value changes. This method is like \"link\", but without the current-value callback on registration. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(Vector2IO,NullableIO<Vector2IO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "link": {
+            "documentation": "Adds a listener which will be called when the value changes. On registration, the listener is also called with the current value. The listener takes two arguments, the new value and the previous value.",
+            "parameterTypes": [
+              "FunctionIO(Vector2IO,NullableIO<Vector2IO>)=>VoidIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setValue": {
+            "documentation": "Sets the value of the Property. If the value differs from the previous value, listeners are notified with the new value.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "Vector2IO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "parameterTypes": [
+          "Vector2IO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "PropertyIO<Vector2IO>"
+      },
+      "ReferenceIO<ObjectIO>": {
+        "documentation": "Uses reference identity for serializing and deserializing, and validates based on its parameter IO Type.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "ObjectIO"
+        ],
+        "supertype": "ObjectIO",
+        "typeName": "ReferenceIO<ObjectIO>"
+      },
+      "RichTextIO": {
+        "documentation": "The tandem IO type for the scenery RichText node",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "NodeIO",
+        "typeName": "RichTextIO"
+      },
+      "SceneryEventIO": {
+        "documentation": "An event, with a point",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "SceneryEventIO"
+      },
+      "ScreenIO": {
+        "documentation": "Section of a simulation which has its own model and view.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "parameterTypes": [
+          "ObjectIO"
+        ],
+        "supertype": "ReferenceIO<ObjectIO>",
+        "typeName": "ScreenIO"
+      },
+      "StringIO": {
+        "documentation": "IO Type for Javascript's string primitive type",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "StringIO"
+      },
+      "TextIO": {
+        "documentation": "Text that is displayed in the simulation. TextIO has a nested PropertyIO.&lt;String&gt; for the current string value.",
+        "events": [],
+        "methodOrder": [],
+        "methods": {
+          "getFontOptions": {
+            "documentation": "Gets font options for this TextIO instance as an object",
+            "parameterTypes": [],
+            "returnType": "FontIO"
+          },
+          "getMaxWidth": {
+            "documentation": "Gets the maximum width of text box",
+            "parameterTypes": [],
+            "returnType": "NumberIO"
+          },
+          "setFontOptions": {
+            "documentation": "Sets font options for this TextIO instance, e.g. {size: 16, weight: bold}. If increasing the font size does not make the text size larger, you may need to increase the maxWidth of the TextIO also.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "FontIO"
+            ],
+            "returnType": "VoidIO"
+          },
+          "setMaxWidth": {
+            "documentation": "Sets the maximum width of text box. If the text width exceeds maxWidth, it is scaled down to fit.",
+            "invocableForReadOnlyElements": false,
+            "parameterTypes": [
+              "NumberIO"
+            ],
+            "returnType": "VoidIO"
+          }
+        },
+        "supertype": "NodeIO",
+        "typeName": "TextIO"
+      },
+      "Vector2IO": {
+        "documentation": "A numerical object with x and y properties, like {x:3,y:4}",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "Vector2IO"
+      },
+      "VoidIO": {
+        "documentation": "Type for which there is no instance, usually to mark functions without a return value",
+        "events": [],
+        "methodOrder": [],
+        "methods": {},
+        "supertype": "ObjectIO",
+        "typeName": "VoidIO"
+      }
+    }
+  }
